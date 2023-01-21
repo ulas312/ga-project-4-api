@@ -1,0 +1,104 @@
+[
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 2,
+  "fields": {
+    "model": "Air max 1",
+    "name": "Anniversary Obsidian",
+    "colorway": "WHITE/DARK OBSIDIAN-NEUTRAL GREY-BLACK",
+    "size": "10.5",
+    "release_year": "2017",
+    "retail_price": "125",
+    "cover_image": "https://cms-cdn.thesolesupplier.co.uk/2017/12/Nike-Air-Max-1-OG-Obsidian-908375-104-03.png",
+    "owner": 2,
+    "brand": [
+      2
+    ]
+  }
+},
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 3,
+  "fields": {
+    "model": "Dunk low",
+    "name": "Panda",
+    "colorway": "black / white",
+    "size": "10.5",
+    "release_year": "2022",
+    "retail_price": "115",
+    "cover_image": "http://cdn.shopify.com/s/files/1/0552/1029/articles/nike-dunk-low-panda-2022-restock-dd1391-100-lead_1200x1200.webp?v=1664398201",
+    "owner": 2,
+    "brand": [
+      2
+    ]
+  }
+},
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 4,
+  "fields": {
+    "model": "Yeezy Boost 350 V2",
+    "name": "Zebra",
+    "colorway": "WHITE/CORE BLACK/RED",
+    "size": "10.5",
+    "release_year": "2017",
+    "retail_price": "180",
+    "cover_image": "https://sneakernews.com/wp-content/uploads/2022/04/zebra-yeezys-release-date-2.jpg",
+    "owner": 2,
+    "brand": [
+      3
+    ]
+  }
+},
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 5,
+  "fields": {
+    "model": "Yeezy Boost 700",
+    "name": "Wave Runner",
+    "colorway": "SOLID GREY/CHALK WHITE/CORE BLACK",
+    "size": "10.5",
+    "release_year": "2017",
+    "retail_price": "250",
+    "cover_image": "https://cdn.shopify.com/s/files/1/0255/9429/8467/products/adidas-yeezy-boost-700-wave-runner-solid-grey-kids-FU9005_2.jpg?v=1630774125&width=1024",
+    "owner": 2,
+    "brand": [
+      3
+    ]
+  }
+},
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 6,
+  "fields": {
+    "model": "Jordan 1 Low SE",
+    "name": "Concord",
+    "colorway": "black / white",
+    "size": "10.5",
+    "release_year": "2023",
+    "retail_price": "125",
+    "cover_image": "https://assets-global.website-files.com/6179bd8bf2c3bb015c1fa461/63a0fb2a1b0e90ee08c250e6_198.jpg",
+    "owner": 2,
+    "brand": [
+      4
+    ]
+  }
+},
+{
+  "model": "sneakerModels.sneakermodels",
+  "pk": 7,
+  "fields": {
+    "model": "Jordan 4 Retro",
+    "name": "Infrared (GS)",
+    "colorway": "DARK GREY/INFRARED 23-BLACK-CEMENT GREY",
+    "size": "10.5",
+    "release_year": "2022",
+    "retail_price": "150",
+    "cover_image": "https://cms-cdn.thesolesupplier.co.uk/2022/07/air-jordan-4-retro-gs-infrared-408452-061-side_w900.jpg",
+    "owner": 2,
+    "brand": [
+      4
+    ]
+  }
+}
+]

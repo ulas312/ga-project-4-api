@@ -1,0 +1,23 @@
+[
+{
+  "model": "brands.brand",
+  "pk": 2,
+  "fields": {
+    "brand_name": "Nike"
+  }
+},
+{
+  "model": "brands.brand",
+  "pk": 3,
+  "fields": {
+    "brand_name": "Adidas"
+  }
+},
+{
+  "model": "brands.brand",
+  "pk": 4,
+  "fields": {
+    "brand_name": "Jordan"
+  }
+}
+]

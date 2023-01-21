@@ -1,10 +1,10 @@
-from rest_framework import serializers
 from .common import SneakerModelsSerializer
 from brands.serializers.common import BrandSerializer
-from comments.serializers.common import CommentSerializer
+from comments.serializers.populated import PopulatedCommentSerializer
+from jwt_auth.serializers.common import UserSerializer
 
 
 class PopulatedSneakerModelsSerializer(SneakerModelsSerializer):
     brands = BrandSerializer(many=True)
-    # sneakerModels = SneakerModelsSerializer(many=True)
-    comments = CommentSerializer(many=True)
+    comments = PopulatedCommentSerializer(many=True)
+    owner = UserSerializer()

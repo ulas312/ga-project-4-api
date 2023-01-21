@@ -2,6 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticated
 from django.db import IntegrityError
 
 from .serializers.populated import PopulatedSneakerModelsSerializer
@@ -10,6 +11,7 @@ from .models import SneakerModels
 
 
 class SneakerModelsListView(APIView):
+    permission_classes = (IsAuthenticated, )
 
     def get(self, _request):
         sneaker_models = SneakerModels.objects.all()
@@ -17,6 +19,7 @@ class SneakerModelsListView(APIView):
         return Response(serialized_sneaker_models.data, status=status.HTTP_200_OK)
 
     def post(self, request):
+        request.data['owner'] = request.user.id
         model_to_add = SneakerModelsSerializer(data=request.data)
         try:
             model_to_add.is_valid()

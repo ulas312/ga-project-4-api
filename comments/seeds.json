@@ -1,0 +1,22 @@
+[
+{
+  "model": "comments.comment",
+  "pk": 3,
+  "fields": {
+    "text": "nasty",
+    "created_at": "2023-01-21T19:56:43.047Z",
+    "sneaker_Model": 4,
+    "owner": 1
+  }
+},
+{
+  "model": "comments.comment",
+  "pk": 4,
+  "fields": {
+    "text": "what are thoseeee",
+    "created_at": "2023-01-21T19:57:12.900Z",
+    "sneaker_Model": 5,
+    "owner": 1
+  }
+}
+]

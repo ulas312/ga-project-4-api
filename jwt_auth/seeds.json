@@ -1,0 +1,40 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$VH5mqxpXqmpO7NLuVHy5Xz$mvgd0n6/jvmz86inmxUq/arvzz3fn5ZUmq2Ce206t/0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ull1las",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-01-21T00:39:11.022Z",
+    "email": "ulas@ulas.com",
+    "first_name": "Ulas",
+    "last_name": "temel",
+    "profile_image": "image.jpeg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$8wo42Ae6TaiO2ZEYIVwHBm$Ij1toJPUU6QSR/pBUZm8BXAx3mmvq66+FqCp5A1XgOs=",
+    "last_login": "2023-01-21T19:44:57.351Z",
+    "is_superuser": true,
+    "username": "admin",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-01-21T01:37:25.242Z",
+    "email": "admin@admin.com",
+    "first_name": "",
+    "last_name": "",
+    "profile_image": "",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
