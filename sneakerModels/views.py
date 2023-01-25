@@ -48,7 +48,7 @@ class SneakerModelsDetailView(APIView):
 
     def get(self, _request, pk):
         sneaker_model = self.get_sneaker_model(pk=pk) 
-        serialized_sneaker_model = SneakerModelsSerializer(sneaker_model)
+        serialized_sneaker_model = PopulatedSneakerModelsSerializer(sneaker_model)
         return Response(serialized_sneaker_model.data, status=status.HTTP_200_OK)
 
     def put(self, request, pk):
