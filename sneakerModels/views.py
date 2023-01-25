@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from django.db import IntegrityError
 
 from .serializers.populated import PopulatedSneakerModelsSerializer
@@ -11,11 +11,11 @@ from .models import SneakerModels
 
 
 class SneakerModelsListView(APIView):
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get(self, _request):
         sneaker_models = SneakerModels.objects.all()
-        serialized_sneaker_models = SneakerModelsSerializer(sneaker_models, many=True)
+        serialized_sneaker_models = PopulatedSneakerModelsSerializer(sneaker_models, many=True)
         return Response(serialized_sneaker_models.data, status=status.HTTP_200_OK)
 
     def post(self, request):

@@ -5,6 +5,6 @@ from jwt_auth.serializers.common import UserSerializer
 
 
 class PopulatedSneakerModelsSerializer(SneakerModelsSerializer):
-    brands = BrandSerializer(many=True)
+    brand = BrandSerializer(many=True)
     comments = PopulatedCommentSerializer(many=True)
     owner = UserSerializer()
