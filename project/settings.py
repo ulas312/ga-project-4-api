@@ -139,6 +139,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://snkr-closet-api.herokuapp.com",
+    "https://63d3a0d1e5a7407cea5e6e8e--snker-closet-frontend.netlify.app",
 ]
 
 REST_FRAMEWORK = {
