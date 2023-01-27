@@ -138,6 +138,7 @@ AUTH_USER_MODEL = 'jwt_auth.User'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://snkr-closet-api.herokuapp.com"
 ]
 
 REST_FRAMEWORK = {
